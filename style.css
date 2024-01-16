@@ -399,3 +399,56 @@ header {
   color: #6d95fc;
   padding-bottom: 48px;
 }
+
+/* whyusSection */
+
+.whyusSection {
+  background-image: url(./img/whyusgradient.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 110px;
+}
+
+.whyusSection_flex-cobtainer {
+  display: flex;
+  gap: 62px;
+  justify-content: space-between;
+}
+
+.whyusSection_h2 {
+  text-transform: uppercase;
+  font-size: 55px;
+  max-width: 760px;
+  font-weight: 700;
+}
+
+.whyusSection_h3 {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.whyusSection_secText-top {
+  font-size: 21px;
+  font-weight: 300;
+  max-width: 564px;
+  padding-top: 62px;
+  padding-bottom: 32px;
+}
+
+.whyusSection_secText-list::before {
+  content: url(./img/checktick.svg);
+  width: 21px;
+  height: 21px;
+  margin-right: 11px;
+  vertical-align: middle;
+}
+
+.whyusSection_secText-list {
+  font-size: 21px;
+  font-weight: 300;
+}
+
+.whyusSection_secText-container {
+  margin-bottom: 253px;
+}
