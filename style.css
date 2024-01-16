@@ -1,0 +1,401 @@
+/* poppins-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/poppins-v20-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/poppins-v20-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/poppins-v20-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/poppins-v20-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/poppins-v20-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: #fff;
+  background-color: #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+
+  /* // @media screen and (min-width: $bp-tablet) {
+  //   font-size: 18px;
+  //   font-weight: 400;
+  // } */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+a {
+  display: inline-block;
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.section_conteiner {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  padding: 0px 24px;
+
+  /* //   @media screen and (min-width: $bp-tablet) {
+  //     padding: 0px 20px;
+  //   } */
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* base-text*/
+.blue-text {
+  color: #6d95fc;
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 80px;
+  font-weight: 800;
+  max-width: 819px;
+  margin-bottom: 83px;
+}
+
+.mainSection_text {
+  max-width: 615px;
+  margin-bottom: 43px;
+}
+
+/* buttons*/
+
+.main-Btn {
+  padding: 10px 25px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+  background-color: transparent;
+  border-radius: 2px;
+  border: 3px solid #6d95fc;
+  cursor: pointer;
+}
+
+/* Header*/
+
+.serchIcon {
+  display: block;
+  margin: 5px 30px;
+  cursor: pointer;
+}
+
+.size {
+  fill: #6d95fc;
+}
+
+.logo {
+  height: 92px;
+  width: 244px;
+  padding-right: 28px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 18px;
+}
+
+.header-menu a {
+  font-size: 21px;
+  font-weight: 400;
+  color: #fff;
+  padding: 10px 18px;
+  text-decoration: none;
+}
+
+.mainSection {
+  padding: 185px 0;
+  margin-top: 48px;
+  background-image: url(./img/gradient\ main.png), url(./img/mainbackg.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* about*/
+
+.aboutSection {
+  background-image: url(./img/aboutGradient.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.aboutSection_img {
+  padding-right: 10px;
+  width: 736px;
+  height: 806px;
+}
+
+.aboutSection_h2 {
+  font-size: 42px;
+  max-width: 614px;
+}
+
+.aboutSection_text {
+  max-width: 708px;
+  font-size: 21px;
+  font-weight: 300;
+}
+
+/* services*/
+
+.ourService_flex-conteiner {
+  display: flex;
+  gap: 98px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourService_text-conteiner {
+  max-width: 589px;
+}
+
+.ourService_icons-conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 610px;
+}
+
+.ourService_icons-item1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 280px;
+  background-image: url(./img/serviceGradient1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ourService_icons-item2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 280px;
+  background-image: url(./img/serviceGradient2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ourService_icons-item3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 280px;
+  background-image: url(./img/serviceGradient3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ourService_icons-item4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 280px;
+  background-image: url(./img/serviceGradient4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ourService_icons-h3 {
+  padding-top: 16px;
+  color: #6d95fc;
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.ourService_icons-text {
+  max-width: 226px;
+  font-size: 17px;
+  font-weight: 300px;
+  text-align: center;
+}
+
+.ourService {
+  margin-top: 112px;
+  margin-bottom: 154px;
+}
+
+.ourService_h2 {
+  max-width: 582px;
+  text-transform: capitalize;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.ourService_h2-hgl {
+  color: #6d95fc;
+}
+
+.ourService_text {
+  max-width: 472px;
+}
+
+/* Header*/
+
+.futuresSection {
+  background-image: url(./img/featureGradient.png);
+  max-height: 360px;
+}
+
+.futuresSection_flex-conteiner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.futuresSection_items {
+  width: 189px;
+  height: 221px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.futuresSection_h3 {
+  font-size: 52px;
+  font-weight: 700;
+  margin: 3px 0 0 0;
+  line-height: 1.1;
+}
+
+.futuresSection_text {
+  color: #6d95fc;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+/*Our Work*/
+
+.slider-container {
+  display: flex;
+}
+
+.workSection {
+  margin-top: 100px;
+}
+
+.workSection_h2 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  max-width: 688px;
+  margin: 0 auto;
+  padding-bottom: 48px;
+}
+
+.workSection_h3 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 500;
+  color: #6d95fc;
+  padding-bottom: 48px;
+}
