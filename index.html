@@ -230,44 +230,63 @@
       </section>
       <section id="contactSection" class="contactSection">
         <div class="section_conteiner">
-          <div class="contact-text-container">
-            <h3>GET IN TOUCH</h3>
-            <p>
-              Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor sit amet,
-              Neque porro elit NeDque porro
-            </p>
-            <address>
-              <ul>
-                <li>
-                  <svg width="95px" height="95px">
-                    <use href="./images/sprite.svg#icon-coma"></use>
-                  </svg>
-                  Office Address<a href="">98, Arca St, PR City, 33414 , Indonesia</a>
-                </li>
-                <li>
-                  <svg width="95px" height="95px">
-                    <use href="./images/sprite.svg#icon-coma"></use>
-                  </svg>
-                  >Call Us<a href="">(+BK) 123 456 7891</a>
-                </li>
-                <li>
-                  <svg width="95px" height="95px">
-                    <use href="./images/sprite.svg#icon-coma"></use>
-                  </svg>
-                  Mail Us<a href="">info@creaticagency.com</a>
-                </li>
-              </ul>
-            </address>
-          </div>
-          <div class="contact-form-container">
-            <form action="submit">
-              <label for="YOUR NAME">YOUR NAME</label>
-              <input type="text" />
-              <label for="YOUR EMAIL">YOUR EMAIL</label>
-              <input type="text" />
-              <label for="YOUR MESSAGE">YOUR MESSAGE</label>
-              <input type="text" />
-            </form>
+          <div class="contact-flex-conteiner">
+            <div class="contact-text-container">
+              <h3 class="contact-h3">GET IN <span class="blue-text">TOUCH</span></h3>
+              <p class="contact-text">
+                Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor sit amet,
+                Neque porro elit NeDque porro
+              </p>
+              <address>
+                <ul>
+                  <li class="contact-links-container">
+                    <svg width="32px" height="45px">
+                      <use href="./img/sprite.svg#icon-location"></use>
+                    </svg>
+                    <div>
+                      <p class="contact-textToLink">Office Address</p>
+                      <a class="blue-text capitalise contactlink" href=""
+                        >98, Arca St, PR City, 33414 , Indonesia</a
+                      >
+                    </div>
+                  </li>
+                  <li class="contact-links-container">
+                    <svg width="35px" height="33px">
+                      <use href="./img/sprite.svg#icon-phone1"></use>
+                    </svg>
+                    <div>
+                      <p class="contact-textToLink">Call Us</p>
+                      <a class="blue-text contactlink" href="tel:+380960000007"
+                        >(+BK) 123 456 7891</a
+                      >
+                    </div>
+                  </li>
+                  <li class="contact-links-container">
+                    <svg width="45px" height="45px">
+                      <use href="./img/sprite.svg#icon-gmail"></use>
+                    </svg>
+                    <div>
+                      <p class="contact-textToLink">Mail Us</p>
+                      <a
+                        class="blue-text lowercase contactlink"
+                        href="mailto:info@creaticagency.com"
+                        >info@creaticagency.com</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </address>
+            </div>
+            <div class="contact-form-container">
+              <form action="submit">
+                <label class="form-label" for="YOUR NAME">YOUR NAME</label>
+                <input class="form-field" type="text" />
+                <label class="form-label" for="YOUR EMAIL">YOUR EMAIL</label>
+                <input class="form-field" type="text" />
+                <label class="form-label" for="YOUR MESSAGE">YOUR MESSAGE</label>
+                <input class="form-field form-field-textarea" type="text" />
+              </form>
+            </div>
           </div>
         </div>
       </section>

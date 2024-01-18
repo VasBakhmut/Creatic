@@ -531,3 +531,87 @@ header {
   align-items: center;
   justify-content: center;
 }
+
+/* Contact */
+
+.contact-flex-conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 134px;
+  gap: 130px;
+}
+
+.contact-links-container {
+  display: flex;
+  gap: 34px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalise {
+  text-transform: capitalize;
+}
+
+.contactlink {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contact-textToLink {
+  font-size: 21px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.contact-h3 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.contact-text {
+  font-size: 21px;
+  font-weight: 300;
+  max-width: 589px;
+  margin-bottom: 50px;
+}
+
+.contact-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 539px;
+  height: 606px;
+  background-image: url(./img/contactGradient.png);
+}
+
+.form-field {
+  border: 1px solid #fff;
+  background-color: transparent;
+  width: 426px;
+  height: 50px;
+  flex-shrink: 0;
+  margin-bottom: 57px;
+}
+
+.form-field-textarea {
+  width: 426px;
+  height: 178px;
+  flex-shrink: 0;
+}
+
+.form-label {
+  color: #fff;
+
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.445px;
+  text-transform: uppercase;
+}
