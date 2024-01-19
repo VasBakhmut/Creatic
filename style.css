@@ -534,11 +534,21 @@ header {
 
 /* Contact */
 
+.contactSection {
+  margin-bottom: 189px;
+  padding-bottom: 90px;
+  background-image: url(./img/getintachgradient.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 134px;
+}
+
 .contact-flex-conteiner {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 134px;
+
   gap: 130px;
 }
 
@@ -582,11 +592,14 @@ header {
 
 .contact-form-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   max-width: 539px;
-  height: 606px;
-  background-image: url(./img/contactGradient.png);
+  background-image: linear-gradient(180deg, #12192b 0.03%, rgba(18, 25, 43, 0) 109.04%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 62px 56px 56px 57px;
+  border-radius: 34px;
 }
 
 .form-field {
@@ -606,12 +619,86 @@ header {
 
 .form-label {
   color: #fff;
-
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 1.445px;
   text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 26px;
+}
+
+.form-btn {
+  color: #111728;
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.465px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  border: 3px solid #6d95fc;
+  background: #6d95fc;
+  width: 212px;
+  padding: 10px 25px;
+  margin: 0 auto;
+}
+
+/* Footer */
+
+footer {
+  background-image: url(./img/Ellipse\ 2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_menu-conteiner {
+  display: flex;
+  gap: 42px;
+  margin-top: 32px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.footer_menu-links {
+  color: #6d95fc;
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.525px;
+  text-transform: capitalize;
+}
+
+.footer_text {
+  color: #fff;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 300;
+  max-width: 670px;
+}
+
+.footer-social-container {
+  display: flex;
+  gap: 26px;
+  margin-top: 40px;
+  margin-bottom: 193px;
+}
+
+.footer-copyright {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+
+  text-transform: capitalize;
 }
