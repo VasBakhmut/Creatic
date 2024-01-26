@@ -702,3 +702,62 @@ footer {
 
   text-transform: capitalize;
 }
+
+/* slider */
+
+.swiper {
+  width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-wrapper {
+  align-items: center;
+}
+
+.swiper-slide {
+  min-width: 551px;
+  height: 628px;
+  margin: 0 auto;
+}
+
+.swiper-slide-active {
+  min-width: 757px;
+  height: 884px;
+  margin: 0 auto;
+}
+
+/* pagination */
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 100px;
+  gap: 15px;
+}
+
+.pagination-dot {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+}
+
+.pagination-container-dot-active-pagination {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid #6d95fc;
+}
+
+.pagination-container-dot {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid transparent;
+}

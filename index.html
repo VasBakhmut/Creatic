@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Creatic</title>
+
+    <link
+      href=" https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.css "
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./degault.css" />
   </head>
   <body>
     <header class="section_conteiner">
@@ -156,16 +162,24 @@
         </div>
       </section>
       <section id="workSection" class="workSection">
-        <div class="section_conteiner">
-          <h2 class="workSection_h2">
-            ENJOY OUR <span class="blue-text">LATEST </span>PROJECTS
-          </h2>
-          <h3 class="workSection_h3">OUR WORK</h3>
-          <div class="slider-container">
-            <img src="./img/ourwork1.png" alt="ourwork1" />
-            <img src="./img/ourworkmain.png" alt="ourwork" />
-            <img src="./img/ourwork3.png" alt="ourwork3" />
+        <h2 class="workSection_h2">
+          ENJOY OUR <span class="blue-text">LATEST </span>PROJECTS
+        </h2>
+        <h3 class="workSection_h3">OUR WORK</h3>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="./img/ourwork1.png" alt="" /></div>
+            <div class="swiper-slide"><img src="./img/ourwork2.png" alt="" /></div>
+            <div class="swiper-slide"><img src="./img/ourwork3.png" alt="" /></div>
+            <div class="swiper-slide"><img src="./img/ourwork1.png" alt="" /></div>
+            <div class="swiper-slide"><img src="./img/ourwork2.png" alt="" /></div>
+            <div class="swiper-slide"><img src="./img/ourwork3.png" alt="" /></div>
           </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
         </div>
       </section>
       <section id="whyusSection" class="whyusSection">
@@ -334,5 +348,7 @@
         Copyright &copy; 2003-2023 Creatic Agency All rights reserved.
       </p>
     </footer>
+    <script src=" https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.js "></script>
+    <script src="./slidersecond.js"></script>
   </body>
 </html>
